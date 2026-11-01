@@ -9,11 +9,26 @@ A lightweight toolkit focused on simplicity.
 - batteries included
 
 
+## Project structure
+```
+.
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── go.mod
+├── main.go
+└── utils.go
+```
+
 ## Usage
 
 ```bash
-node index.js
+go test ./...
 ```
+
 
 ## Notes
 
